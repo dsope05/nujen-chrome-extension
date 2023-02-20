@@ -1,5 +1,5 @@
 {
-  "name": "magic-chrome-extension",
+  "name": "nujen",
   "version": "0.1.0",
   "description": "A Chrome browser extension with Magic passwordless authentication.",
   "scripts": {
@@ -9,11 +9,17 @@
     "eject": "react-scripts eject"
   },
   "dependencies": {
-    "react": "^16.13.1",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.6",
+    "cors": "^2.8.5",
+    "magic-sdk": "^4.1.1",
+    "prismjs": "^1.29.0",
+    "react": "^18.0.0",
     "react-dom": "^16.13.1",
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
-    "magic-sdk": "^4.1.1"
+    "react-simple-code-editor": "^0.13.1"
   },
   "devDependencies": {
     "react-scripts": "4.0.2"

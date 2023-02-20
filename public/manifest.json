@@ -1,7 +1,7 @@
 {
-  "name": "Magic Chrome Extension",
-  "description": "Build a Chrome extension with Magic auth!",
-  "version": "0.1.0",
+  "name": "Newsletter Curation Tool",
+  "description": "Curate the content for your newsletter while browsing the internet!",
+  "version": "0.0.1",
   "manifest_version": 3,
   "action": {
     "default_popup": "index.html",

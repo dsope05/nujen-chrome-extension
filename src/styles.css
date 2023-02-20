@@ -1,6 +1,6 @@
 .App {
   align-self: center;
-  justify-self: center;
+  height: 100%;
 }
 
 #root {
@@ -13,12 +13,24 @@
   margin: auto;
 }
 
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+
 .container {
-  width: 300px;
-  background-color: #eee;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   text-align: center;
-  padding: 27px 18px;
-  margin-bottom: 27px;
+  padding: 30px;
+  padding-bottom: 50px;
+  max-width: 300px;
 }
 
 h1 {
